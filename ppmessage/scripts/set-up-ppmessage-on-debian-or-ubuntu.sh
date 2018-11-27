@@ -83,7 +83,8 @@ apt-get install -y \
     redis-server \
     wget
 
-
+pip install -U setuptools
+pip install -U pip
 # "pip install -i http://pypi.douban.com/simple xxx" might be faster
 pip install \
     apns2 \
